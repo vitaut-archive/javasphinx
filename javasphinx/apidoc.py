@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Copyright (c) 2012 Bronto Software Inc.
 # Licensed under the MIT License
 
@@ -294,3 +295,6 @@ Note: By default this script will not overwrite already created files.""")
 
     if not opts.notoc:
         write_toc(packages, opts)
+
+if __name__ == "__main__":
+    main()
